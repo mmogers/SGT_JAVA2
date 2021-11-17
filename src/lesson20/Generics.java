@@ -6,29 +6,24 @@ public class Generics {
 
     public static void main(String[] args) {
 
+
+        // BAD PRACTICE!
         List myList = new ArrayList();
         myList.add("SomeText");
+        myList.add(5);
+
+//        List<Object> myObjects = new ArrayList<Object>();
+
+        // myList.set(1, "String");
+
         String someText = (String) myList.get(0);
+        Integer someinteger = (Integer) myList.get(1);
 
-        //Equals to
-        /*List<String> myList2 = new ArrayList<>();
-        String someText2 = myList2.get(0);*/
+        // Equals to
+        List<String> myList2 = new ArrayList<String>();
 
-        Queue<String> lidl = new LinkedList<>();
-        lidl.add("A");
-        lidl.add("B");
-        lidl.add("C");
-
-        Iterator lidlIterator = lidl.iterator();
-
-        while (lidlIterator.hasNext()){
-            System.out.println(lidlIterator.next());
-        }
-
+        // String someText2 = myList2.get(0);
 
 
     }
-
-
-
 }

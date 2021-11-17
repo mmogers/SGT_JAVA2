@@ -9,11 +9,12 @@ public class Maps {
 
         Map<String, Integer> students = new HashMap<String, Integer>();
 
-        students.put("Marina", 30);
-        students.get("Marina"); //return 30
-        students.containsKey("Marina"); //return true , such key exists
-        students.containsValue(30); //returns true
+        students.put("Artjoms", 31);
+        students.get("Artjoms"); // 31
+        students.containsKey("Artjoms"); // true
+        students.containsValue(31); // true
 
-        students.put("Marina", 99); //the age will be overridden;
+        students.put("Artjoms", 99);
+
     }
 }
