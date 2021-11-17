@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SGT_JAVA2.iml" filepath="$PROJECT_DIR$/SGT_JAVA2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../blog/blog.iml" filepath="$PROJECT_DIR$/../blog/blog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/../ecommerce/ecommerce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../portfolio/test-project.iml" filepath="$PROJECT_DIR$/../portfolio/test-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SGT_JAVA2_new.iml" filepath="$PROJECT_DIR$/SGT_JAVA2_new.iml" />
     </modules>
   </component>
 </project>
